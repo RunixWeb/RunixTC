@@ -5,6 +5,40 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RunixTC</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .text-box {
+      margin: 18px auto 0;
+      max-width: 28rem;
+      background: rgba(8, 8, 8, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 14px 16px;
+      color: #ededed;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.04);
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    .text-box .title {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #cfcfcf;
+      margin-bottom: 8px;
+    }
+
+    .text-box p {
+      margin: 0;
+      font-size: 0.92rem;
+      opacity: 0.96;
+    }
+
+    .text-box p + p {
+      margin-top: 6px;
+    }
+  </style>
   <!-- SVG filter para aberración cromática -->
   <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;">
     <filter id="chromatic" x="-20%" y="-20%" width="140%" height="140%">
@@ -27,6 +61,13 @@
       <button class="external-link btn" data-link="https://www.youtube.com/@MusicOperationProblem">Music</button>
       <button class="external-link btn" data-link="https://github.com/RunixWeb">GitHub</button>
       <button class="external-link btn" data-link="https://runix-yt.itch.io/">Itch.io</button>
+    </div>
+
+    <div class="text-box" aria-label="Texto breve de presentación">
+      <span class="title">Notas</span>
+      <p>Frase corta 1.</p>
+      <p>Frase corta 2.</p>
+      <p>Frase corta 3.</p>
     </div>
   </main>
 
