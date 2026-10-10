@@ -1,79 +1,14 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>RunixTC</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <style>
-    .text-box {
-      margin: 18px auto 0;
-      max-width: 28rem;
-      background: rgba(8, 8, 8, 0.72);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      border-radius: 10px;
-      padding: 14px 16px;
-      color: #ededed;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.45), inset 0 1px 0 rgba(255,255,255,0.04);
-      text-align: left;
-      line-height: 1.5;
-    }
-
-    .text-box .title {
-      display: block;
-      font-size: 0.9rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #cfcfcf;
-      margin-bottom: 8px;
-    }
-
-    .text-box p {
-      margin: 0;
-      font-size: 0.92rem;
-      opacity: 0.96;
-    }
-
-    .text-box p + p {
-      margin-top: 6px;
-    }
-  </style>
-  <!-- SVG filter para aberración cromática -->
-  <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;">
-    <filter id="chromatic" x="-20%" y="-20%" width="140%" height="140%">
-      <feColorMatrix in="SourceGraphic" result="orig" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-      <feOffset in="orig" dx="2" dy="0" result="r"/>
-      <feColorMatrix in="r" type="matrix" result="rcol" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/>
-      <feOffset in="orig" dx="-2" dy="0" result="b"/>
-      <feColorMatrix in="b" type="matrix" result="bcol" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-      <feBlend in="rcol" in2="bcol" mode="screen" result="rb"/>
-      <feBlend in="rb" in2="orig" mode="screen"/>
-    </filter>
-  </svg>
-</head>
-<body class="crt">
-  <main class="center">
-    <img src="icons/RunixTC.png" alt="RunixTC icon" class="hero-icon" loading="lazy">
-    <h1>RunixTC</h1>
-    <div class="links">
-      <button class="external-link btn" data-link="https://www.youtube.com/@Runix_el_raro">YouTube</button>
-      <button class="external-link btn" data-link="https://www.youtube.com/@MusicOperationProblem">Music</button>
-      <button class="external-link btn" data-link="https://github.com/RunixWeb">GitHub</button>
-      <button class="external-link btn" data-link="https://runix-yt.itch.io/">Itch.io</button>
-    </div>
-
-    <div class="text-box" aria-label="Solo un mensaje del creador...">
-      <span class="title">Notas</span>
-      <p>La verdad, gracias por visitar mi web, es por mucho un logro que veas esta web para finalmente yo
-      saber que te gusta el sitio.</p>
-      <p>Solo soy, un tipo random que un dia quizo levantar algo desde la nada, un juego, una app, algo para
-      aquellos que no contamos con dispositivos pesados, ja, ojala me viera mi yo del pasado.</p>
-      <p>Se que conoces que soy de México, no hace falta saber porque de mi ultima frase, asi que si algun dia me voy,
-       solo dejo esta web, y todo lo que he hecho, para ustedes, solo eso quiero, muchas gracias. RunixTC</p>
-    </div>
-  </main>
-
-  <script src="js/app.js" defer></script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RunixTC Web</title>
+  </head>
+  <body>
+    <h1>Creado por RunixTC, esta es la web oficial del creador, asegurate de conocerlo, si te gusta su contenido no olvides apoyarlo.</h1>
+    <style>
+      body {
+        backgroung-color: black;
+      }
+    </style>
+  </body>
 </html>
