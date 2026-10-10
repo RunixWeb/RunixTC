@@ -1,5 +1,3 @@
-Runix web
-
-Un sitio que busca dar a conocer al equipo detras de RunixTC, creado para la comunidad indie.
-
-Gracias a ArcOrizonStudio y CodeInkStudio esto ha sido posible realizarlo.
+RunixTC
+Sitio web creado por RunixTC o Runix el raro para mostrar sus proyectos.
+MusicOperationProblem: Pseudonimo de musica del creador.
